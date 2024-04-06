@@ -10,6 +10,8 @@ import { persistStore } from 'redux-persist';
 
 let persistor = persistStore(store);
 
+export const BASE_URL="https://chatapp-server-iota.vercel.app"
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
