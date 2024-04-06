@@ -12,7 +12,7 @@
             "dest":"index.js",
             "methods":["GET","POST"],
             "headers":{
-                "Access-Control-Allow-Origin":"*"
+                "Access-Control-Allow-Origin":"https://chatapp-client-pearl.vercel.app"
             }
         }
     ]
