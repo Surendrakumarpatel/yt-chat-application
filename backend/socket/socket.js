@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
     cors:{
-        origin:['https://chatapp-client-pearl.vercel.app'],
+        origin:['http://localhost:8080'],
         methods:['GET', 'POST'],
     },
 });

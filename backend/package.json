@@ -6,6 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
+    "start":"node index.js",
+    "build":"npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
