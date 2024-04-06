@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
     cors:{
-        origin:['http://localhost:8080'],
+        origin:['https://chatapp-server-iota.vercel.app'],
         methods:['GET', 'POST'],
     },
 });
