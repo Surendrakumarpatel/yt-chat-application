@@ -20,7 +20,7 @@ const corsOption={
     origin:'https://chatapp-client-pearl.vercel.app',
     credentials:true
 };
-app.use(cors(corsOption));
+app.use(cors());
 
 app.get("/", (req,res)=>{
     return res.status(200).json({
